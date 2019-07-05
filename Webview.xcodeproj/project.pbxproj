@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E11077990C63D003E59881 /* Pods_WebviewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0045298CA59DA82CCB8F11FB /* Pods_WebviewUITests.framework */; };
+		1B16CC5B40BCA4D57B70489D /* Pods_Webview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A923C15808DCA588333E93 /* Pods_Webview.framework */; };
+		3DA7C89C98F6B8BC38E46647 /* Pods_WebviewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AEFFB22CEAA40F188C52EC /* Pods_WebviewTests.framework */; };
 		E21F702A22BFD442003D12A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F702922BFD442003D12A1 /* AppDelegate.swift */; };
 		E21F702C22BFD442003D12A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F702B22BFD442003D12A1 /* ViewController.swift */; };
 		E21F702F22BFD442003D12A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F702D22BFD442003D12A1 /* Main.storyboard */; };
@@ -14,6 +17,15 @@
 		E21F703422BFD444003D12A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21F703222BFD444003D12A1 /* LaunchScreen.storyboard */; };
 		E21F703F22BFD444003D12A1 /* WebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F703E22BFD444003D12A1 /* WebviewTests.swift */; };
 		E21F704A22BFD444003D12A1 /* WebviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F704922BFD444003D12A1 /* WebviewUITests.swift */; };
+		E21F705922BFD96C003D12A1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21F705822BFD96C003D12A1 /* WebKit.framework */; };
+		E245CCE322C8E35300DFC536 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E245CCE222C8E35300DFC536 /* GoogleService-Info.plist */; };
+		E245CCE622C8E7DE00DFC536 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245CCE522C8E7DE00DFC536 /* LoginVC.swift */; };
+		E245CCE822C8E80A00DFC536 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245CCE722C8E80A00DFC536 /* RegisterVC.swift */; };
+		E245CCEA22C930AC00DFC536 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245CCE922C930AC00DFC536 /* RoundedShadowButton.swift */; };
+		E245CCEF22C968BE00DFC536 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245CCEE22C968BE00DFC536 /* Constants.swift */; };
+		E2D9D89D22CE932800625648 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9D89C22CE932800625648 /* API.swift */; };
+		E2D9D8A022CE961500625648 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9D89F22CE961500625648 /* String+Extensions.swift */; };
+		E2D9D8A222CEC3AB00625648 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D9D8A122CEC3AB00625648 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0045298CA59DA82CCB8F11FB /* Pods_WebviewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebviewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BBAAB7C33280B831B7F8159 /* Pods-WebviewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewTests.release.xcconfig"; path = "Target Support Files/Pods-WebviewTests/Pods-WebviewTests.release.xcconfig"; sourceTree = "<group>"; };
+		28FCB5C8DB06CDFFD5B677A0 /* Pods-WebviewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewTests.debug.xcconfig"; path = "Target Support Files/Pods-WebviewTests/Pods-WebviewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39AEFFB22CEAA40F188C52EC /* Pods_WebviewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebviewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A923C15808DCA588333E93 /* Pods_Webview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Webview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F084BC0BC942062FC8B2BCC /* Pods-WebviewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewUITests.debug.xcconfig"; path = "Target Support Files/Pods-WebviewUITests/Pods-WebviewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FA075DCE04614A3CD09EF01 /* Pods-Webview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webview.debug.xcconfig"; path = "Target Support Files/Pods-Webview/Pods-Webview.debug.xcconfig"; sourceTree = "<group>"; };
+		BCEA77B01DADBD1677638A6A /* Pods-WebviewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewUITests.release.xcconfig"; path = "Target Support Files/Pods-WebviewUITests/Pods-WebviewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D241B2FEFD34B822DA7023CA /* Pods-Webview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Webview.release.xcconfig"; path = "Target Support Files/Pods-Webview/Pods-Webview.release.xcconfig"; sourceTree = "<group>"; };
 		E21F702622BFD442003D12A1 /* Webview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21F702922BFD442003D12A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21F702B22BFD442003D12A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,15 @@
 		E21F704522BFD444003D12A1 /* WebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21F704922BFD444003D12A1 /* WebviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewUITests.swift; sourceTree = "<group>"; };
 		E21F704B22BFD444003D12A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21F705822BFD96C003D12A1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E245CCE222C8E35300DFC536 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E245CCE522C8E7DE00DFC536 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E245CCE722C8E80A00DFC536 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		E245CCE922C930AC00DFC536 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		E245CCEE22C968BE00DFC536 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2D9D89C22CE932800625648 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E2D9D89F22CE961500625648 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E2D9D8A122CEC3AB00625648 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21F705922BFD96C003D12A1 /* WebKit.framework in Frameworks */,
+				1B16CC5B40BCA4D57B70489D /* Pods_Webview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA7C89C98F6B8BC38E46647 /* Pods_WebviewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +101,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E11077990C63D003E59881 /* Pods_WebviewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCACE9406AA3BDCA1005D9B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FA075DCE04614A3CD09EF01 /* Pods-Webview.debug.xcconfig */,
+				D241B2FEFD34B822DA7023CA /* Pods-Webview.release.xcconfig */,
+				28FCB5C8DB06CDFFD5B677A0 /* Pods-WebviewTests.debug.xcconfig */,
+				1BBAAB7C33280B831B7F8159 /* Pods-WebviewTests.release.xcconfig */,
+				6F084BC0BC942062FC8B2BCC /* Pods-WebviewUITests.debug.xcconfig */,
+				BCEA77B01DADBD1677638A6A /* Pods-WebviewUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E21F701D22BFD442003D12A1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +128,8 @@
 				E21F703D22BFD444003D12A1 /* WebviewTests */,
 				E21F704822BFD444003D12A1 /* WebviewUITests */,
 				E21F702722BFD442003D12A1 /* Products */,
+				E21F705722BFD96C003D12A1 /* Frameworks */,
+				DCACE9406AA3BDCA1005D9B2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +146,16 @@
 		E21F702822BFD442003D12A1 /* Webview */ = {
 			isa = PBXGroup;
 			children = (
+				E2D9D8A122CEC3AB00625648 /* Helper.swift */,
+				E2D9D89B22CE930B00625648 /* API */,
+				E245CCED22C968A000DFC536 /* Extensions */,
+				E245CCEC22C9688B00DFC536 /* Model */,
+				E245CCEB22C9687D00DFC536 /* View */,
+				E245CCE422C8E7C600DFC536 /* Controller */,
+				E2D9D89A22CE910300625648 /* SupportingFiles */,
 				E21F702922BFD442003D12A1 /* AppDelegate.swift */,
-				E21F702B22BFD442003D12A1 /* ViewController.swift */,
 				E21F702D22BFD442003D12A1 /* Main.storyboard */,
-				E21F703022BFD444003D12A1 /* Assets.xcassets */,
-				E21F703222BFD444003D12A1 /* LaunchScreen.storyboard */,
+				E245CCE222C8E35300DFC536 /* GoogleService-Info.plist */,
 				E21F703522BFD444003D12A1 /* Info.plist */,
 			);
 			path = Webview;
@@ -125,6 +179,68 @@
 			path = WebviewUITests;
 			sourceTree = "<group>";
 		};
+		E21F705722BFD96C003D12A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E21F705822BFD96C003D12A1 /* WebKit.framework */,
+				52A923C15808DCA588333E93 /* Pods_Webview.framework */,
+				39AEFFB22CEAA40F188C52EC /* Pods_WebviewTests.framework */,
+				0045298CA59DA82CCB8F11FB /* Pods_WebviewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E245CCE422C8E7C600DFC536 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E245CCE522C8E7DE00DFC536 /* LoginVC.swift */,
+				E21F702B22BFD442003D12A1 /* ViewController.swift */,
+				E245CCE722C8E80A00DFC536 /* RegisterVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E245CCEB22C9687D00DFC536 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E245CCE922C930AC00DFC536 /* RoundedShadowButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E245CCEC22C9688B00DFC536 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E245CCED22C968A000DFC536 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E245CCEE22C968BE00DFC536 /* Constants.swift */,
+				E2D9D89F22CE961500625648 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2D9D89A22CE910300625648 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E21F703022BFD444003D12A1 /* Assets.xcassets */,
+				E21F703222BFD444003D12A1 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E2D9D89B22CE930B00625648 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E2D9D89C22CE932800625648 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21F704E22BFD444003D12A1 /* Build configuration list for PBXNativeTarget "Webview" */;
 			buildPhases = (
+				37AA5F2E8DB4E4EA659B37EC /* [CP] Check Pods Manifest.lock */,
 				E21F702222BFD442003D12A1 /* Sources */,
 				E21F702322BFD442003D12A1 /* Frameworks */,
 				E21F702422BFD442003D12A1 /* Resources */,
+				52D9E40894609A778B0F15FD /* [CP] Embed Pods Frameworks */,
+				ED25BBD426C2203A64F8D6BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21F705122BFD444003D12A1 /* Build configuration list for PBXNativeTarget "WebviewTests" */;
 			buildPhases = (
+				940D946B686918258E5D4E8E /* [CP] Check Pods Manifest.lock */,
 				E21F703622BFD444003D12A1 /* Sources */,
 				E21F703722BFD444003D12A1 /* Frameworks */,
 				E21F703822BFD444003D12A1 /* Resources */,
@@ -167,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21F705422BFD444003D12A1 /* Build configuration list for PBXNativeTarget "WebviewUITests" */;
 			buildPhases = (
+				836B9E73D3DA19F78B77B235 /* [CP] Check Pods Manifest.lock */,
 				E21F704122BFD444003D12A1 /* Sources */,
 				E21F704222BFD444003D12A1 /* Frameworks */,
 				E21F704322BFD444003D12A1 /* Resources */,
@@ -231,6 +352,7 @@
 			files = (
 				E21F703422BFD444003D12A1 /* LaunchScreen.storyboard in Resources */,
 				E21F703122BFD444003D12A1 /* Assets.xcassets in Resources */,
+				E245CCE322C8E35300DFC536 /* GoogleService-Info.plist in Resources */,
 				E21F702F22BFD442003D12A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +373,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37AA5F2E8DB4E4EA659B37EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Webview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D9E40894609A778B0F15FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Webview/Pods-Webview-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Webview/Pods-Webview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		836B9E73D3DA19F78B77B235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebviewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940D946B686918258E5D4E8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebviewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED25BBD426C2203A64F8D6BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Webview/Pods-Webview-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Webview/Pods-Webview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E21F702222BFD442003D12A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +519,13 @@
 			files = (
 				E21F702C22BFD442003D12A1 /* ViewController.swift in Sources */,
 				E21F702A22BFD442003D12A1 /* AppDelegate.swift in Sources */,
+				E245CCE622C8E7DE00DFC536 /* LoginVC.swift in Sources */,
+				E245CCE822C8E80A00DFC536 /* RegisterVC.swift in Sources */,
+				E2D9D8A022CE961500625648 /* String+Extensions.swift in Sources */,
+				E2D9D8A222CEC3AB00625648 /* Helper.swift in Sources */,
+				E245CCEA22C930AC00DFC536 /* RoundedShadowButton.swift in Sources */,
+				E245CCEF22C968BE00DFC536 /* Constants.swift in Sources */,
+				E2D9D89D22CE932800625648 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +698,7 @@
 		};
 		E21F704F22BFD444003D12A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA075DCE04614A3CD09EF01 /* Pods-Webview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +716,7 @@
 		};
 		E21F705022BFD444003D12A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D241B2FEFD34B822DA7023CA /* Pods-Webview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +734,7 @@
 		};
 		E21F705222BFD444003D12A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FCB5C8DB06CDFFD5B677A0 /* Pods-WebviewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +755,7 @@
 		};
 		E21F705322BFD444003D12A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBAAB7C33280B831B7F8159 /* Pods-WebviewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +776,7 @@
 		};
 		E21F705522BFD444003D12A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F084BC0BC942062FC8B2BCC /* Pods-WebviewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +796,7 @@
 		};
 		E21F705622BFD444003D12A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEA77B01DADBD1677638A6A /* Pods-WebviewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
